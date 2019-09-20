@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sally Student Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="application-root"></div>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    
+    <script type="text/babel">
+        function App(props) {
+            return (
+                <div>
+                    <header>
+                        <h1>{props.name}</h1>
+                        <h2>Software Engineer</h2>
+                        <p>Results oriented Software Engineering Professional with 8 years of extensive experience, training, and proficiency in software ideation, design and implementation. Advanced skills and understanding of problem-solving, decision-making, testing, collaboration and agile development.</p>
+                    </header>
+                    <main>
+                        <section id="work">
+                            <h2>Work Experience</h2>
+                            <h3>Mechanical Engineer</h3>
+                            <p>Awesome Inc.</p>
+                            <p>Jan 2016 - Dec 2018</p>
+                            <p>As part of the new product development team, designed new product lines and integrated them into the prescribed production system workflow.</p>
+                            
+                            <h3>Project Engineer</h3>
+                            <p>The Great Co.</p>
+                            <p>May 2012 - Jan 2016</p>
+                            <p>Managed projects that led to a great product line and clients in every single Fortune 500 company around the workd.</p>
+                        </section>
+                        <section id="education">
+                            <h2>Education</h2>
+                            <h3>University of Toronto</h3>
+                            <p>Toronto, Ontario</p>
+                            <p>Bachelors of Engineering</p>
+                            
+                            <h3>University of Waterloo</h3>
+                            <p>Waterloo, Ontario</p>
+                            <p>Masters of Engineering</p>
+                        </section>
+                    </main>
+                    <footer id="footer">
+                        <h2>Contact Info:</h2>
+                        <img src="images/Ilana.jpg" alt="Student Sally" />
+                        <address>
+                            <h3>Sally Student</h3>
+                            <p><a href="mailto:email@email.com">email@email.com</a></p>
+                            <p><a href="tel:+1-123-321-9876">1-123-321-9876</a></p>
+                        </address>
+                    </footer>
+                </div>
+            );
+        };
+        ReactDOM.render(<App name="Sally Student"/>, document.querySelector("#application-root"));
+    </script>
+</body>
+</html>

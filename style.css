@@ -1,0 +1,69 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: rgb(47, 45, 45);
+	color: white;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+header h2 {
+	font-size: 2.2em;
+	text-decoration: none;
+	margin: 10px;
+}
+
+header p {
+	font-size: 1.3em;
+}
+
+#work,
+#education {
+	margin: 10px;
+	background-color: aliceblue;
+	color: black;
+	padding: 5px;
+}
+
+#work h2,
+#education h2 {
+	text-decoration: underline;
+	font-size: 2em;
+	margin-bottom: 5px 0 0 0;
+}
+
+#work h3,
+#education h3 {
+	font-size: 1.5em;
+}
+
+#work p,
+#education p {
+	font-size: 1.3em;
+}
+
+#footer h2 {
+	font-size: 1.8em;
+	text-transform: uppercase;
+	margin-bottom: 5px 0 0 0;
+}
+
+#footer h3,
+#footer p {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+#footer a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer a:hover {
+	color: darkgoldenrod;
+}
